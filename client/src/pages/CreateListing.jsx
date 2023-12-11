@@ -248,7 +248,7 @@ export const CreateListing = () => {
                 max="10"
                 required
                 onChange={handleChange}
-                value={formData.beds}
+                value={formData.bedrooms}
                 className="p-3 border border-gray-300 rounded-lg"
               />
               <p>Beds</p>
