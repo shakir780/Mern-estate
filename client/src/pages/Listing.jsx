@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore from "swiper";
 import { Navigation } from "swiper/modules";
-import "swiper/css";
+import "swiper/css/bundle";
 import {
   FaBath,
   FaBed,
@@ -103,7 +103,7 @@ export const Listing = () => {
               </p>
               {listing.offer && (
                 <p className="bg-green-900 w-full max-w-[200px] text-white text-center p-1 rounded-md">
-                  ${+listing.regularPrice - +listing.discountPrice} OFF
+                  ${+listing.regularPrice - +listing.discountPrice} off
                 </p>
               )}
             </div>
